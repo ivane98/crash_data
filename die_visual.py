@@ -19,7 +19,7 @@ for value in poss_results:
     frequency = results.count(value)
     frequencies.append(frequency)
 
-title = "Results of Rolling Two D6 Dice 1,000 Times"
+title = "Results of Rolling three D6 Die"
 labels = {'x': 'Result', 'y': 'Frequency of Result'}
 fig = px.bar(x=poss_results, y=frequencies, title=title, labels=labels)
 
